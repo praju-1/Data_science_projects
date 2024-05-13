@@ -1,0 +1,104 @@
+About this file
+
+Add Suggestion
+Happy Customer Bank is a mid-sized private bank that deals in all kinds of banking products, like Savings accounts, Current accounts, investment products, credit products, among other offerings.
+
+The bank also cross-sells products to its existing customers and to do so they use different kinds of communication like tele-calling, e-mails, recommendations on net banking, mobile banking, etc.
+
+In this case, the Happy Customer Bank wants to cross sell its credit cards to its existing customers. The bank has identified a set of customers that are eligible for taking these credit cards.
+
+Now, the bank is looking for your help in identifying customers that could show higher intent towards a recommended credit card, given:
+
+Customer details (gender, age, region etc.)
+Details of his/her relationship with the bank (ChannelCode,Vintage, 'AvgAsset_Value etc.)
+Data Dictionary
+
+
+**********Train Data***********
+
+Variable Definition (column description)
+
+ID == Unique Identifier for a row
+
+Gender == Gender of the Customer
+
+Age == Age of the Customer (in Years)
+
+Region_Code == Code of the Region for the customers
+
+Occupation == Occupation Type for the customer
+
+Channel_Code  == Acquisition Channel Code for the Customer (Encoded)
+
+Vintage == Vintage for the Customer (In Months)
+
+Credit_Product == If the Customer has any active credit product (Home loan,Personal loan, Credit Card etc.)
+
+AvgAccountBalance == Average Account Balance for the Customer in last 12 Months
+
+Is_Active == If the Customer is Active in last 3 Months
+
+If the Customer is interested for the Credit Card
+
+0 : Customer is not interested
+
+1 : Customer is interested
+
+
+*************Test Data*************
+
+Variable Definition (column description)
+
+ID == Unique Identifier for a row
+
+Gender == Gender of the Customer
+
+Age == Age of the Customer (in Years)
+
+Region_Code == Code of the Region for the customers
+
+Occupation == Occupation Type for the customer
+
+Channel_Code  == Acquisition Channel Code for the Customer (Encoded)
+
+Vintage == Vintage for the Customer (In Months)
+
+Credit_Product == If the Customer has any active credit product (Home loan,Personal loan, Credit Card etc.)
+
+AvgAccountBalance == Average Account Balance for the Customer in last 12 Months
+
+Is_Active == If the Customer is Active in last 3 Months
+
+
+************ documentation below points you can add in your project presentation********************
+
+
+Problem Statement:
+
+The task is to develop a predictive model that can identify existing customers of Happy Customer Bank who are more likely to show higher intent towards the recommended credit cards. This model will help the bank in targeting the right customers for its credit card cross-selling efforts.
+
+Objective:
+
+Build a machine learning model that accurately predicts the likelihood of a customer showing higher intent towards a recommended credit card based on their demographic details, banking relationship attributes, and other relevant factors.
+
+Key Tasks:
+
+Perform exploratory data analysis (EDA) to understand the distribution and relationships of various features in the dataset.
+Preprocess the data by handling missing values, encoding categorical variables, and scaling numerical features.
+Split the dataset into training and testing sets.
+Train different machine learning models on the training set and evaluate their performance using appropriate evaluation metrics.
+Fine-tune the hyperparameters of the best performing model using techniques like grid search or randomized search.
+Validate the final model on the testing set to ensure its generalization ability.
+Interpret the model results and provide actionable insights to the bank for targeting potential credit card customers effectively.
+Success Criteria:
+
+The success of the project will be measured based on the model's ability to accurately predict the likelihood of customers showing higher intent towards the recommended credit cards, as indicated by evaluation metrics such as accuracy, precision, recall, and F1-score.
+
+Deliverables:
+
+A well-documented Jupyter notebook containing the code implementation, including data preprocessing, model training, evaluation, and interpretation.
+A comprehensive report outlining the findings, insights, and recommendations derived from the analysis and modeling process.
+Constraints:
+
+Privacy and compliance: Ensure compliance with data privacy regulations and protect sensitive customer information.
+Resource limitations: Consider computational resources and time constraints for model training and evaluation.
